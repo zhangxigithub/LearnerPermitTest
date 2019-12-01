@@ -52,7 +52,7 @@ class HistoryViewController: UIViewController,UITableViewDelegate,UITableViewDat
         if segue.identifier == "paper"
         {
             let vc = segue.destination as! TestViewController
-            vc.paper = sender as! Paper
+            vc.paper = sender as? Paper
         }
     }
     

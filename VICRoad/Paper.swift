@@ -54,7 +54,7 @@ class Paper
     
     static func randomPaper() -> Paper
     {
-        let id = String(format: "%d", Int(arc4random() % 60))
+        let id = String(format: "%d", Int(arc4random() % 160))
         return Paper(id: id)
     }
     
