@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3323129520C42CAD0067888B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3323129420C42CAD0067888B /* AppDelegate.swift */; };
+		3323129720C42CAD0067888B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3323129620C42CAD0067888B /* ViewController.swift */; };
+		3323129A20C42CAD0067888B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3323129820C42CAD0067888B /* Main.storyboard */; };
+		3323129C20C42CB00067888B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3323129B20C42CB00067888B /* Assets.xcassets */; };
+		3323129F20C42CB00067888B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3323129D20C42CB00067888B /* LaunchScreen.storyboard */; };
+		3333DC0720C4C21700D0FFCC /* Untilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3333DC0620C4C21700D0FFCC /* Untilities.swift */; };
+		3333DC0920C4C2DB00D0FFCC /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3333DC0820C4C2DB00D0FFCC /* TestViewController.swift */; };
+		3333DC0B20C4C31C00D0FFCC /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3333DC0A20C4C31C00D0FFCC /* HistoryViewController.swift */; };
+		3333DC0D20C4C56A00D0FFCC /* Paper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3333DC0C20C4C56A00D0FFCC /* Paper.swift */; };
+		3333DC0F20C4C5A200D0FFCC /* Papers in Resources */ = {isa = PBXBuildFile; fileRef = 3333DC0E20C4C5A200D0FFCC /* Papers */; };
+		3333DC1120C4D3CF00D0FFCC /* QuestionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3333DC1020C4D3CF00D0FFCC /* QuestionCell.swift */; };
+		33DDD69620C53AA300266250 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DDD69520C53AA300266250 /* ImageViewController.swift */; };
+		D185CAD2445FC7EF3EF3B388 /* Pods_VICRoad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74BECF853F80FC1D6DFB1837 /* Pods_VICRoad.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3323129120C42CAD0067888B /* VICRoad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VICRoad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3323129420C42CAD0067888B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3323129620C42CAD0067888B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3323129920C42CAD0067888B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3323129B20C42CB00067888B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3323129E20C42CB00067888B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		332312A020C42CB00067888B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3333DC0620C4C21700D0FFCC /* Untilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Untilities.swift; sourceTree = "<group>"; };
+		3333DC0820C4C2DB00D0FFCC /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		3333DC0A20C4C31C00D0FFCC /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		3333DC0C20C4C56A00D0FFCC /* Paper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paper.swift; sourceTree = "<group>"; };
+		3333DC0E20C4C5A200D0FFCC /* Papers */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Papers; sourceTree = "<group>"; };
+		3333DC1020C4D3CF00D0FFCC /* QuestionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionCell.swift; sourceTree = "<group>"; };
+		33DDD69520C53AA300266250 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		39216E584B46AA0611C7F19B /* Pods-VICRoad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VICRoad.release.xcconfig"; path = "Pods/Target Support Files/Pods-VICRoad/Pods-VICRoad.release.xcconfig"; sourceTree = "<group>"; };
+		74BECF853F80FC1D6DFB1837 /* Pods_VICRoad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VICRoad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A20299D742D5A24E40A9B076 /* Pods-VICRoad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VICRoad.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VICRoad/Pods-VICRoad.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3323128E20C42CAD0067888B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D185CAD2445FC7EF3EF3B388 /* Pods_VICRoad.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3323128820C42CAD0067888B = {
+			isa = PBXGroup;
+			children = (
+				3323129320C42CAD0067888B /* VICRoad */,
+				3323129220C42CAD0067888B /* Products */,
+				CC1E22C61DA8B730B3F3659F /* Pods */,
+				AB1826E242AD65DDA3EC8E2E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3323129220C42CAD0067888B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3323129120C42CAD0067888B /* VICRoad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3323129320C42CAD0067888B /* VICRoad */ = {
+			isa = PBXGroup;
+			children = (
+				3333DC0E20C4C5A200D0FFCC /* Papers */,
+				3323129420C42CAD0067888B /* AppDelegate.swift */,
+				3333DC0620C4C21700D0FFCC /* Untilities.swift */,
+				3323129620C42CAD0067888B /* ViewController.swift */,
+				3323129820C42CAD0067888B /* Main.storyboard */,
+				3333DC0820C4C2DB00D0FFCC /* TestViewController.swift */,
+				3333DC1020C4D3CF00D0FFCC /* QuestionCell.swift */,
+				33DDD69520C53AA300266250 /* ImageViewController.swift */,
+				3333DC0C20C4C56A00D0FFCC /* Paper.swift */,
+				3333DC0A20C4C31C00D0FFCC /* HistoryViewController.swift */,
+				3323129B20C42CB00067888B /* Assets.xcassets */,
+				3323129D20C42CB00067888B /* LaunchScreen.storyboard */,
+				332312A020C42CB00067888B /* Info.plist */,
+			);
+			path = VICRoad;
+			sourceTree = "<group>";
+		};
+		AB1826E242AD65DDA3EC8E2E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74BECF853F80FC1D6DFB1837 /* Pods_VICRoad.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC1E22C61DA8B730B3F3659F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A20299D742D5A24E40A9B076 /* Pods-VICRoad.debug.xcconfig */,
+				39216E584B46AA0611C7F19B /* Pods-VICRoad.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3323129020C42CAD0067888B /* VICRoad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 332312A320C42CB00067888B /* Build configuration list for PBXNativeTarget "VICRoad" */;
+			buildPhases = (
+				01796766F4A507F5A073C516 /* [CP] Check Pods Manifest.lock */,
+				3323128D20C42CAD0067888B /* Sources */,
+				3323128E20C42CAD0067888B /* Frameworks */,
+				3323128F20C42CAD0067888B /* Resources */,
+				9D04856DB53B3B14DFC8E823 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VICRoad;
+			productName = VICRoad;
+			productReference = 3323129120C42CAD0067888B /* VICRoad.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3323128920C42CAD0067888B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = zhangxi;
+				TargetAttributes = {
+					3323129020C42CAD0067888B = {
+						CreatedOnToolsVersion = 9.4;
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 3323128C20C42CAD0067888B /* Build configuration list for PBXProject "VICRoad" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3323128820C42CAD0067888B;
+			productRefGroup = 3323129220C42CAD0067888B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3323129020C42CAD0067888B /* VICRoad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3323128F20C42CAD0067888B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3323129F20C42CB00067888B /* LaunchScreen.storyboard in Resources */,
+				3333DC0F20C4C5A200D0FFCC /* Papers in Resources */,
+				3323129C20C42CB00067888B /* Assets.xcassets in Resources */,
+				3323129A20C42CAD0067888B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01796766F4A507F5A073C516 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VICRoad-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D04856DB53B3B14DFC8E823 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VICRoad/Pods-VICRoad-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VICRoad/Pods-VICRoad-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VICRoad/Pods-VICRoad-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3323128D20C42CAD0067888B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3323129720C42CAD0067888B /* ViewController.swift in Sources */,
+				3323129520C42CAD0067888B /* AppDelegate.swift in Sources */,
+				3333DC0D20C4C56A00D0FFCC /* Paper.swift in Sources */,
+				3333DC1120C4D3CF00D0FFCC /* QuestionCell.swift in Sources */,
+				3333DC0920C4C2DB00D0FFCC /* TestViewController.swift in Sources */,
+				3333DC0B20C4C31C00D0FFCC /* HistoryViewController.swift in Sources */,
+				33DDD69620C53AA300266250 /* ImageViewController.swift in Sources */,
+				3333DC0720C4C21700D0FFCC /* Untilities.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3323129820C42CAD0067888B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3323129920C42CAD0067888B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3323129D20C42CB00067888B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3323129E20C42CB00067888B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		332312A120C42CB00067888B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		332312A220C42CB00067888B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		332312A420C42CB00067888B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A20299D742D5A24E40A9B076 /* Pods-VICRoad.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 54TGPDSGF2;
+				INFOPLIST_FILE = VICRoad/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.zhangxi.vicroad.learner.all;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		332312A520C42CB00067888B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39216E584B46AA0611C7F19B /* Pods-VICRoad.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 54TGPDSGF2;
+				INFOPLIST_FILE = VICRoad/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.zhangxi.vicroad.learner.all;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3323128C20C42CAD0067888B /* Build configuration list for PBXProject "VICRoad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				332312A120C42CB00067888B /* Debug */,
+				332312A220C42CB00067888B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		332312A320C42CB00067888B /* Build configuration list for PBXNativeTarget "VICRoad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				332312A420C42CB00067888B /* Debug */,
+				332312A520C42CB00067888B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3323128920C42CAD0067888B /* Project object */;
+}
